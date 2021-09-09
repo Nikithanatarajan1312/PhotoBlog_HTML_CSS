@@ -1,0 +1,23 @@
+nav{
+    font-family: 'Balsamiq Sans', cursive;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: 1.5%;
+    padding: 20px 0;
+    font-size: 30px;
+}
+img{
+    width: 30%;
+    height: 400px;
+    margin: 1.5%;
+    object-fit: cover;
+    transition: 0.5s;
+    box-shadow: 12px 12px 2px 1px rgba(22, 22, 27, 0.2);
+}
+img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: none;
+}
